@@ -1,0 +1,32 @@
+# Network Intrusion Detection System (NIDS)
+
+A network-based intrusion detection system project built, capable of detecting suspicious activities and generating alerts. This project includes custom rule creation, alert logging, and real-time visualization using tools.
+
+---
+
+## Project Overview
+
+- **Tool Used**: Snort / Suricata (choose one)
+- **Monitoring Interface**: `eth0` (or your interface)
+- **Visualization**: Kibana / Grafana
+- **Log Format**: EVE JSON / Syslog
+- **Simulated Attacks**: Nmap, Hping3, Metasploit
+
+---
+
+## Tools & Technologies
+
+| Component        | Technology Used         |
+|------------------|-------------------------|
+| IDS Engine       | Snort / Suricata        |
+| Log Format       | JSON / Syslog           |
+| Dashboard        | Kibana / Grafana        |
+| OS Platform      | Ubuntu / Kali Linux     |
+| Packet Sniffing  | Wireshark / Tcpdump     |
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
